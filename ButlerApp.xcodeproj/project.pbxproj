@@ -20,6 +20,25 @@
 		0A6D9CA01CB92DF500B63309 /* check.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D9C9F1CB92DF500B63309 /* check.gif */; };
 		0A6D9CA21CB92E5000B63309 /* check2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D9CA11CB92E5000B63309 /* check2.png */; };
 		0A6D9CA41CB92EEC00B63309 /* check2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D9CA31CB92EEC00B63309 /* check2.jpg */; };
+		99F698071CBE013400BF23E8 /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698061CBE013400BF23E8 /* UserSignInViewController.swift */; };
+		99F698091CBE0A0400BF23E8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698081CBE0A0400BF23E8 /* Util.swift */; };
+		99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */; };
+		99F6980E1CBE1A6100BF23E8 /* UserSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6980D1CBE1A6100BF23E8 /* UserSignUpViewController.swift */; };
+		99F698101CBE2D9D00BF23E8 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F6980F1CBE2D9D00BF23E8 /* menu.png */; };
+		99F698121CBE2DE800BF23E8 /* ButlerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */; };
+		99F698171CBE304200BF23E8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F698161CBE304200BF23E8 /* SWRevealViewController.m */; };
+		99F698191CBE3B0E00BF23E8 /* SideBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698181CBE3B0E00BF23E8 /* SideBarMenuViewController.swift */; };
+		99F6981B1CBE3D4A00BF23E8 /* SideBarProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6981A1CBE3D4A00BF23E8 /* SideBarProfileCell.swift */; };
+		99F6981D1CBE46D100BF23E8 /* SideBarOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6981C1CBE46D100BF23E8 /* SideBarOptionCell.swift */; };
+		99F6981F1CBE513E00BF23E8 /* images1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F6981E1CBE513E00BF23E8 /* images1.jpg */; };
+		99F698211CBE516100BF23E8 /* khalidWani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F698201CBE516100BF23E8 /* khalidWani.jpg */; };
+		99F698231CBE5C3B00BF23E8 /* messageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F698221CBE5C3B00BF23E8 /* messageIcon.png */; };
+		99F698251CBE5F4700BF23E8 /* FbLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F698241CBE5F4700BF23E8 /* FbLogo.png */; };
+		99F698271CBE5F5200BF23E8 /* linkedinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F698261CBE5F5200BF23E8 /* linkedinLogo.png */; };
+		99F698291CBE5F5E00BF23E8 /* twitterlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F698281CBE5F5E00BF23E8 /* twitterlogo.png */; };
+		99F6982B1CBE712700BF23E8 /* ProfileScreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6982A1CBE712700BF23E8 /* ProfileScreeViewController.swift */; };
+		99F6982D1CBE763100BF23E8 /* ProfileTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6982C1CBE763100BF23E8 /* ProfileTableCell.swift */; };
+		99F6982F1CBE7A7700BF23E8 /* Elon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F6982E1CBE7A7700BF23E8 /* Elon.jpg */; };
 		99F9D9441CBB6A0900445044 /* ImageSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9D9431CBB6A0900445044 /* ImageSliderViewController.swift */; };
 		99F9D9461CBB6A4700445044 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9D9451CBB6A4700445044 /* SplashScreen.swift */; };
 		99F9D9481CBB714900445044 /* Yellow_star_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F9D9471CBB714900445044 /* Yellow_star_small.png */; };
@@ -76,6 +95,27 @@
 		0A6D9C9F1CB92DF500B63309 /* check.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = check.gif; sourceTree = "<group>"; };
 		0A6D9CA11CB92E5000B63309 /* check2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check2.png; sourceTree = "<group>"; };
 		0A6D9CA31CB92EEC00B63309 /* check2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = check2.jpg; sourceTree = "<group>"; };
+		99F698061CBE013400BF23E8 /* UserSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSignInViewController.swift; path = ../UserSignInViewController.swift; sourceTree = "<group>"; };
+		99F698081CBE0A0400BF23E8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Shake.swift"; sourceTree = "<group>"; };
+		99F6980D1CBE1A6100BF23E8 /* UserSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSignUpViewController.swift; sourceTree = "<group>"; };
+		99F6980F1CBE2D9D00BF23E8 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButlerHomeViewController.swift; sourceTree = "<group>"; };
+		99F698141CBE304100BF23E8 /* ButlerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButlerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		99F698151CBE304200BF23E8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		99F698161CBE304200BF23E8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		99F698181CBE3B0E00BF23E8 /* SideBarMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarMenuViewController.swift; sourceTree = "<group>"; };
+		99F6981A1CBE3D4A00BF23E8 /* SideBarProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarProfileCell.swift; sourceTree = "<group>"; };
+		99F6981C1CBE46D100BF23E8 /* SideBarOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarOptionCell.swift; sourceTree = "<group>"; };
+		99F6981E1CBE513E00BF23E8 /* images1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images1.jpg; sourceTree = "<group>"; };
+		99F698201CBE516100BF23E8 /* khalidWani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = khalidWani.jpg; sourceTree = "<group>"; };
+		99F698221CBE5C3B00BF23E8 /* messageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messageIcon.png; sourceTree = "<group>"; };
+		99F698241CBE5F4700BF23E8 /* FbLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FbLogo.png; sourceTree = "<group>"; };
+		99F698261CBE5F5200BF23E8 /* linkedinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedinLogo.png; sourceTree = "<group>"; };
+		99F698281CBE5F5E00BF23E8 /* twitterlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterlogo.png; sourceTree = "<group>"; };
+		99F6982A1CBE712700BF23E8 /* ProfileScreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreeViewController.swift; sourceTree = "<group>"; };
+		99F6982C1CBE763100BF23E8 /* ProfileTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableCell.swift; sourceTree = "<group>"; };
+		99F6982E1CBE7A7700BF23E8 /* Elon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elon.jpg; sourceTree = "<group>"; };
 		99F9D9431CBB6A0900445044 /* ImageSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderViewController.swift; sourceTree = "<group>"; };
 		99F9D9451CBB6A4700445044 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		99F9D9471CBB714900445044 /* Yellow_star_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow_star_small.png; sourceTree = "<group>"; };
@@ -143,9 +183,14 @@
 		0A6D9C631CB8BDA800B63309 /* ButlerApp */ = {
 			isa = PBXGroup;
 			children = (
+				99F698131CBE2EC400BF23E8 /* SWRevealViewControl */,
+				99F6980C1CBE178900BF23E8 /* CustomeFIles */,
 				0A6D9C641CB8BDA800B63309 /* AppDelegate.swift */,
 				0A6D9C661CB8BDA800B63309 /* ViewController.swift */,
 				0A6D9C681CB8BDA800B63309 /* Main.storyboard */,
+				99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */,
+				99F698181CBE3B0E00BF23E8 /* SideBarMenuViewController.swift */,
+				99F6982A1CBE712700BF23E8 /* ProfileScreeViewController.swift */,
 				99FA44771CBCD26000A66572 /* ZQuestionCardsViewController.swift */,
 				99FA44791CBCD2AC00A66572 /* ZCarousel.swift */,
 				99F9D9431CBB6A0900445044 /* ImageSliderViewController.swift */,
@@ -154,11 +199,17 @@
 				99F9D9591CBBB89600445044 /* QuestionCardsViewController.swift */,
 				0A6D9C9D1CB8DE1A00B63309 /* QuestionsViewController.swift */,
 				99F9D94F1CBB761800445044 /* FirstQViewController.swift */,
+				99F698061CBE013400BF23E8 /* UserSignInViewController.swift */,
+				99F6980D1CBE1A6100BF23E8 /* UserSignUpViewController.swift */,
+				99F698081CBE0A0400BF23E8 /* Util.swift */,
 				0A6D9C6E1CB8BDA800B63309 /* Assets.xcassets */,
 				99F9D9531CBBB7A800445044 /* DragableViewBackground.swift */,
 				99F9D9551CBBB7F300445044 /* DragableView.swift */,
 				99F9D9571CBBB82000445044 /* OverLayView.swift */,
 				0A6D9C701CB8BDA800B63309 /* LaunchScreen.storyboard */,
+				99F6980F1CBE2D9D00BF23E8 /* menu.png */,
+				99F698201CBE516100BF23E8 /* khalidWani.jpg */,
+				99F6982E1CBE7A7700BF23E8 /* Elon.jpg */,
 				99FA447B1CBCD34A00A66572 /* 1.png */,
 				99FA447C1CBCD34A00A66572 /* 3.png */,
 				99FA447D1CBCD34A00A66572 /* 2.png */,
@@ -168,6 +219,11 @@
 				0A6D9CA31CB92EEC00B63309 /* check2.jpg */,
 				99F9D9471CBB714900445044 /* Yellow_star_small.png */,
 				0A6D9C731CB8BDA800B63309 /* Info.plist */,
+				99F6981E1CBE513E00BF23E8 /* images1.jpg */,
+				99F698241CBE5F4700BF23E8 /* FbLogo.png */,
+				99F698221CBE5C3B00BF23E8 /* messageIcon.png */,
+				99F698261CBE5F5200BF23E8 /* linkedinLogo.png */,
+				99F698281CBE5F5E00BF23E8 /* twitterlogo.png */,
 				99F9D94B1CBB727800445044 /* SSRadioButtonsController.swift */,
 				99F9D94D1CBB727D00445044 /* SSRadioButton.swift */,
 				0A6D9C6B1CB8BDA800B63309 /* ButlerApp.xcdatamodeld */,
@@ -192,6 +248,27 @@
 				0A6D9C891CB8BDA800B63309 /* Info.plist */,
 			);
 			path = ButlerAppUITests;
+			sourceTree = "<group>";
+		};
+		99F6980C1CBE178900BF23E8 /* CustomeFIles */ = {
+			isa = PBXGroup;
+			children = (
+				99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */,
+				99F6981A1CBE3D4A00BF23E8 /* SideBarProfileCell.swift */,
+				99F6981C1CBE46D100BF23E8 /* SideBarOptionCell.swift */,
+				99F6982C1CBE763100BF23E8 /* ProfileTableCell.swift */,
+			);
+			name = CustomeFIles;
+			sourceTree = "<group>";
+		};
+		99F698131CBE2EC400BF23E8 /* SWRevealViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				99F698151CBE304200BF23E8 /* SWRevealViewController.h */,
+				99F698161CBE304200BF23E8 /* SWRevealViewController.m */,
+				99F698141CBE304100BF23E8 /* ButlerApp-Bridging-Header.h */,
+			);
+			name = SWRevealViewControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +333,7 @@
 		0A6D9C591CB8BDA800B63309 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = BridgeLabz;
 				TargetAttributes = {
@@ -301,11 +378,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F698231CBE5C3B00BF23E8 /* messageIcon.png in Resources */,
+				99F698291CBE5F5E00BF23E8 /* twitterlogo.png in Resources */,
 				99FA447F1CBCD34A00A66572 /* 3.png in Resources */,
 				0A6D9CA21CB92E5000B63309 /* check2.png in Resources */,
 				0A6D9CA41CB92EEC00B63309 /* check2.jpg in Resources */,
+				99F698101CBE2D9D00BF23E8 /* menu.png in Resources */,
 				0A6D9C721CB8BDA800B63309 /* LaunchScreen.storyboard in Resources */,
+				99F6981F1CBE513E00BF23E8 /* images1.jpg in Resources */,
 				0A6D9C6F1CB8BDA800B63309 /* Assets.xcassets in Resources */,
+				99F698251CBE5F4700BF23E8 /* FbLogo.png in Resources */,
 				99F9D94A1CBB724500445044 /* SSRadioButtonController in Resources */,
 				99FA44801CBCD34A00A66572 /* 2.png in Resources */,
 				99F9D9521CBB7FB200445044 /* Unknown.jpg in Resources */,
@@ -313,6 +395,9 @@
 				99F9D9481CBB714900445044 /* Yellow_star_small.png in Resources */,
 				0A6D9CA01CB92DF500B63309 /* check.gif in Resources */,
 				99FA447E1CBCD34A00A66572 /* 1.png in Resources */,
+				99F6982F1CBE7A7700BF23E8 /* Elon.jpg in Resources */,
+				99F698271CBE5F5200BF23E8 /* linkedinLogo.png in Resources */,
+				99F698211CBE516100BF23E8 /* khalidWani.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,20 +423,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F9D95A1CBBB89600445044 /* QuestionCardsViewController.swift in Sources */,
+				99F698121CBE2DE800BF23E8 /* ButlerHomeViewController.swift in Sources */,
+				99F698091CBE0A0400BF23E8 /* Util.swift in Sources */,
 				0A6D9C6D1CB8BDA800B63309 /* ButlerApp.xcdatamodeld in Sources */,
 				99FA447A1CBCD2AC00A66572 /* ZCarousel.swift in Sources */,
 				99F9D9581CBBB82000445044 /* OverLayView.swift in Sources */,
 				99F9D94C1CBB727800445044 /* SSRadioButtonsController.swift in Sources */,
 				99F9D9561CBBB7F300445044 /* DragableView.swift in Sources */,
 				0A6D9C9E1CB8DE1A00B63309 /* QuestionsViewController.swift in Sources */,
+				99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */,
+				99F6980E1CBE1A6100BF23E8 /* UserSignUpViewController.swift in Sources */,
 				99F9D9541CBBB7A800445044 /* DragableViewBackground.swift in Sources */,
 				99F9D9461CBB6A4700445044 /* SplashScreen.swift in Sources */,
+				99F6982D1CBE763100BF23E8 /* ProfileTableCell.swift in Sources */,
 				0A6D9C671CB8BDA800B63309 /* ViewController.swift in Sources */,
+				99F6982B1CBE712700BF23E8 /* ProfileScreeViewController.swift in Sources */,
+				99F6981B1CBE3D4A00BF23E8 /* SideBarProfileCell.swift in Sources */,
 				99F9D94E1CBB727D00445044 /* SSRadioButton.swift in Sources */,
+				99F698071CBE013400BF23E8 /* UserSignInViewController.swift in Sources */,
 				0A6D9C651CB8BDA800B63309 /* AppDelegate.swift in Sources */,
 				99FA44781CBCD26000A66572 /* ZQuestionCardsViewController.swift in Sources */,
+				99F698191CBE3B0E00BF23E8 /* SideBarMenuViewController.swift in Sources */,
 				99F9D9501CBB761800445044 /* FirstQViewController.swift in Sources */,
+				99F698171CBE304200BF23E8 /* SWRevealViewController.m in Sources */,
 				0A6D9C961CB8CAEE00B63309 /* PageViewController.swift in Sources */,
+				99F6981D1CBE46D100BF23E8 /* SideBarOptionCell.swift in Sources */,
 				99F9D9441CBB6A0900445044 /* ImageSliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,10 +588,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ButlerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ButlerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ButlerApp/ButlerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -503,10 +602,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ButlerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ButlerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ButlerApp/ButlerApp-Bridging-Header.h";
 			};
 			name = Release;
 		};

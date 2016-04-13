@@ -239,6 +239,7 @@ class DraggableView: UIView {
     
     func rightClickAction() -> Void {
         let finishPoint = CGPointMake(600, self.center.y)
+        
         UIView.animateWithDuration(0.3,
                                    animations: {
                                     self.center = finishPoint
@@ -256,7 +257,7 @@ class DraggableView: UIView {
     
     func leftClickAction() -> Void {
         
-         print("6")
+        
         let finishPoint: CGPoint = CGPointMake(0, self.center.y)
         
          self.transform = CGAffineTransformMakeRotation(1)
@@ -267,8 +268,8 @@ class DraggableView: UIView {
                                     self.center.x = 155
                                     self.center.y = 290
                                     self.transform = CGAffineTransformMakeRotation(0)
+                                    self.hidden = false
                                     
-                                     print("7")
             }, completion: nil
                 
                 /*

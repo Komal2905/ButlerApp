@@ -35,6 +35,7 @@ class DraggableViewBackground: UIView, DraggableViewDelegate {
     var checkPrev = 0
     
     var checkP = 0
+    var isNext = false
     
     var draggableView : DraggableView!
     required init?(coder aDecoder: NSCoder) {
@@ -55,11 +56,11 @@ class DraggableViewBackground: UIView, DraggableViewDelegate {
     func setupView() -> Void {
         self.backgroundColor = UIColor(red: 0.92, green: 0.93, blue: 0.95, alpha: 1)
         
-        preButton = UIButton(frame: CGRectMake((self.frame.size.width - CARD_WIDTH)/2 + 35, self.frame.size.height/2 + CARD_HEIGHT/2 + 10, 59, 59))
+        preButton = UIButton(frame: CGRectMake((self.frame.size.width - CARD_WIDTH)/2+10 , self.frame.size.height/2 + CARD_HEIGHT/2 + 10, 80, 40))
         
         preButton.setTitle("Prev", forState: UIControlState.Normal)
-        preButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
-        
+        preButton.setTitleColor(UIColor.orangeColor(), forState: .Normal)
+        preButton.backgroundColor = UIColor.blackColor()
         preButton.layer.cornerRadius = 15
         preButton.layer.borderWidth = 1
         preButton.layer.borderColor = UIColor.blackColor().CGColor
@@ -69,14 +70,14 @@ class DraggableViewBackground: UIView, DraggableViewDelegate {
         
         
         
-        nextButton = UIButton(frame: CGRectMake(self.frame.size.width/2 + CARD_WIDTH/2 - 85, self.frame.size.height/2 + CARD_HEIGHT/2 + 10, 59, 59))
+        nextButton = UIButton(frame: CGRectMake(self.frame.size.width/2 + CARD_WIDTH/2 - 85, self.frame.size.height/2 + CARD_HEIGHT/2 + 10, 80, 40))
        // nextButton.setImage(UIImage(named: "checkButton"), forState: UIControlState.Normal)
         
         nextButton.setTitle("Next", forState: UIControlState.Normal)
         nextButton.addTarget(self, action: #selector(DraggableViewBackground.swipeRight), forControlEvents: UIControlEvents.TouchUpInside)
         
-        nextButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
-        
+        nextButton.setTitleColor(UIColor.orangeColor(), forState: .Normal)
+        nextButton.backgroundColor = UIColor.blackColor()
         nextButton.layer.cornerRadius = 15
         nextButton.layer.borderWidth = 1
         nextButton.layer.borderColor = UIColor.blackColor().CGColor
@@ -145,41 +146,52 @@ class DraggableViewBackground: UIView, DraggableViewDelegate {
     
     func cardSwipedLeft(card: UIView) -> Void {
         //loadedCards.removeAtIndex(0)
-        draggableView.hidden = true //---// here
-        
-        print("10")
-        if (loadedCards.count == 0)
+        if (isNext)
         {
+            print("THIS IS NEXT")
+            
+          // self.draggableView.hidden = true
+        }
+        
+        else
+        {
+            draggableView.hidden = true
+        
+            print("10")
+            if (loadedCards.count == 0)
+            {
             
            
-            print("Loadedc cards is 0")
+                print("Loadedc cards is 0")
             
-            //preButton.enabled = false
-        }
-         print("11")
+                //preButton.enabled = false
+            }
+            print("11")
         
         
-        print("Loaded card COunt IN LEFT",loadedCards.count)
-        print("allCards.count IN LEFT",allCards.count)
-        print("cardsLoadedIndex COunt IN LEFT",cardsLoadedIndex)
+            print("Loaded card COunt IN LEFT",loadedCards.count)
+            print("allCards.count IN LEFT",allCards.count)
+            print("cardsLoadedIndex COunt IN LEFT",cardsLoadedIndex)
         
         
-        print("MAX_BUFFER_SIZE - 2",MAX_BUFFER_SIZE - 2)
-        //self.insertSubview(loadedCards[MAX_BUFFER_SIZE - 2], belowSubview: loadedCards[MAX_BUFFER_SIZE - 1])
-        
-        self.insertSubview(loadedCards[3], belowSubview: loadedCards[4])
-        
-        /*
-        if cardsLoadedIndex < allCards.count {
-            
-            print("12")
-            loadedCards.append(allCards[cardsLoadedIndex-1])
-            //cardsLoadedIndex = cardsLoadedIndex + 1
+            print("MAX_BUFFER_SIZE - 2",MAX_BUFFER_SIZE - 2)
             self.insertSubview(loadedCards[MAX_BUFFER_SIZE - 1], belowSubview: loadedCards[MAX_BUFFER_SIZE - 2])
-        }*/
         
-         print("13")
-    }
+            // self.insertSubview(loadedCards[3], belowSubview: loadedCards[4])
+        
+        
+        
+            /*
+             if cardsLoadedIndex < allCards.count {
+            
+             print("12")
+             loadedCards.append(allCards[cardsLoadedIndex-1])
+             //cardsLoadedIndex = cardsLoadedIndex + 1
+             self.insertSubview(loadedCards[MAX_BUFFER_SIZE - 1], belowSubview: loadedCards[MAX_BUFFER_SIZE - 2])
+             }*/
+            
+        }
+}
     
     // delegate protocol
     
@@ -204,7 +216,7 @@ var loadCardLeft = 0
 func swipeLeft() -> Void
 {
     
-    print("1")
+    isNext = true
     print("Prev Button")
     checkP = checkP - 1
     print("Check p in Left ",checkP)
@@ -216,37 +228,49 @@ func swipeLeft() -> Void
         preButton.hidden = true
             
     }
+        
     else
     {
         nextButton.enabled = true
         nextButton.hidden = false
     }
-        
+    
+    
     if loadedCards.count <= 0
     {
             
         //preButton.enabled = false
         return
     }
+    
+
+    var dragView :  DraggableView = loadedCards[checkP]
+    
+    if(checkP == 0)
+    {
+        //dragView = loadedCards[0]
+        preButton.enabled = false
         
-        
-        
-    let dragView :  DraggableView = loadedCards[checkP]
+        preButton.hidden = true
+    }
+//    else
+//    {
+//        dragView  = loadedCards[checkP]
+//    }
     
     loadCardLeft = loadCardLeft + 1
-        
-    print("2")
+    
     dragView.overlayView.setMode(GGOverlayViewMode.GGOverlayViewModeLeft)
         
-    print("3")
+   
     UIView.animateWithDuration(0.2, animations: {
         () -> Void in
             
-        print("4")
+       
         dragView.overlayView.alpha = 1
         })
         
-         print("5")
+    
         dragView.leftClickAction()
     }
     
@@ -254,34 +278,49 @@ func swipeLeft() -> Void
     
 var isCheck = false
 var loadCard = 0
-func swipeRight() -> Void {
+    
+    
+func swipeRight() -> Void
+{
         
-        
-        preButton.hidden = false
-        preButton.enabled = true
-        print("NEXT Button")
-        print("Check p in Right ",checkP)
-         checkP = checkP + 1
-        //disable next button
-        if (checkP == 4)
-        {
-            nextButton.enabled = false
-            nextButton.hidden = true
-        }
-        else
-        {
-            nextButton.enabled = true
-            nextButton.hidden = false
-        }
+    preButton.hidden = false
+    preButton.enabled = true
+    
+    checkP = checkP + 1
+    //disable next button
+    if (checkP == 4)
+    {
+        nextButton.enabled = false
+        nextButton.hidden = true
+    }
+    else
+    {
+        nextButton.enabled = true
+        nextButton.hidden = false
+    }
         
        
-        if loadedCards.count <= 0 {
+    if loadedCards.count <= 0 {
             
-            //nextButton.enabled = false
-            return
-        }
+        //nextButton.enabled = false
+        return
+    }
+    
+    
+    print("Load cards in Right",loadCard )
+    let dragView: DraggableView = loadedCards[loadCard]
+    
+    if (loadCard == 4)
+    {
+         //dragView = loadedCards[4]
         
-        let dragView: DraggableView = loadedCards[loadCard]
+        loadCard = 0
+    }
+//    else
+//    {
+//       dragView = loadedCards[loadCard]
+//    }
+        //let dragView: DraggableView = loadedCards[loadCard]
         
         loadCard = loadCard + 1
         dragView.overlayView.setMode(GGOverlayViewMode.GGOverlayViewModeRight)
