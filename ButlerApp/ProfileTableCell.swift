@@ -25,7 +25,7 @@ class ProfileTableCell: UITableViewCell {
     
     @IBOutlet weak var testimonialsImageView: UIImageView!
     
-     @IBOutlet weak var userProfileSegment: UISegmentedControl!
+    @IBOutlet weak var userProfileSegment: UISegmentedControl!
     
     
     

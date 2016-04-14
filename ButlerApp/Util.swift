@@ -62,4 +62,18 @@ public class Util
         imageView.contentMode = .ScaleAspectFill
         
     }
+    
+    
+    
+    func roundImageGray(imageView : UIImageView)
+    {
+        imageView.layer.borderWidth = 2.0
+        imageView.layer.masksToBounds = false
+        imageView.layer.borderColor = UIColor.darkGrayColor().CGColor
+        
+        imageView.layer.cornerRadius =  imageView.frame.size.height/2
+        imageView.clipsToBounds = true
+        imageView.contentMode = .ScaleAspectFill
+        
+    }
 }
