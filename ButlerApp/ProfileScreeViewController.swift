@@ -13,6 +13,9 @@ class ProfileScreeViewController: UIViewController, UITableViewDataSource, UITab
 
     @IBOutlet weak var profileTableView: UITableView!
     
+   
+    
+    
     var util = Util()
     
     override func viewDidLoad() {
@@ -26,7 +29,7 @@ class ProfileScreeViewController: UIViewController, UITableViewDataSource, UITab
         // Dispose of any resources that can be recreated.
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
@@ -35,6 +38,7 @@ class ProfileScreeViewController: UIViewController, UITableViewDataSource, UITab
   
         if(indexPath.row == 0)
         {
+            tableView.rowHeight = 210
             let profileCell = tableView.dequeueReusableCellWithIdentifier("profilePicCell")! as! ProfileTableCell
             util.roundImage(profileCell.profilePicImageView)
     
@@ -64,11 +68,45 @@ class ProfileScreeViewController: UIViewController, UITableViewDataSource, UITab
             
             return profileCell
         }
+            
+        if(indexPath.row == 1)
+        {
+            tableView.rowHeight = 44.0
+            let segmentCell = tableView.dequeueReusableCellWithIdentifier("segemtCell")! as! ProfileTableCell
+            
+            if( segmentCell.userProfileSegment.selectedSegmentIndex == 1)
+            {
+                print("Task DOne")
+            }
+            if( segmentCell.userProfileSegment.selectedSegmentIndex == 0)
+            {
+                print("Testin")
+            }
+            if( segmentCell.userProfileSegment.selectedSegmentIndex == 2)
+            {
+                print("Sevice")
+            }
+            
+                      return segmentCell
+        }
+            
+        if(indexPath.row == 2)
+        {
+            tableView.rowHeight = 230
+            let aboutMeCell = tableView.dequeueReusableCellWithIdentifier("aboutMeCell")!
+            return aboutMeCell
+
+        }
+            
         
         else
         {
-            let segmentCell = tableView.dequeueReusableCellWithIdentifier("segemtCell")!
-            return segmentCell
+            tableView.rowHeight = 150
+            let testimonialsCell = tableView.dequeueReusableCellWithIdentifier("testimonialsCell")! as! ProfileTableCell
+            
+            util.roundImage(testimonialsCell.testimonialsImageView)
+            return testimonialsCell
+  
         }
     }
 

@@ -20,6 +20,12 @@
 		0A6D9CA01CB92DF500B63309 /* check.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D9C9F1CB92DF500B63309 /* check.gif */; };
 		0A6D9CA21CB92E5000B63309 /* check2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D9CA11CB92E5000B63309 /* check2.png */; };
 		0A6D9CA41CB92EEC00B63309 /* check2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D9CA31CB92EEC00B63309 /* check2.jpg */; };
+		9903E0001CBF6DB600FCCF1A /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9903DFFF1CBF6DB600FCCF1A /* ProfileScreenViewController.swift */; };
+		9903E0021CBF72F200FCCF1A /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0011CBF72F200FCCF1A /* test1.jpg */; };
+		9903E0041CBF826600FCCF1A /* Speech Bubble-501.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0031CBF826600FCCF1A /* Speech Bubble-501.png */; };
+		9903E0061CBF828D00FCCF1A /* fav1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0051CBF828D00FCCF1A /* fav1.png */; };
+		9903E0081CBF9E8600FCCF1A /* TestimonialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9903E0071CBF9E8600FCCF1A /* TestimonialsViewController.swift */; };
+		9903E00A1CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0091CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg */; };
 		99F698071CBE013400BF23E8 /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698061CBE013400BF23E8 /* UserSignInViewController.swift */; };
 		99F698091CBE0A0400BF23E8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698081CBE0A0400BF23E8 /* Util.swift */; };
 		99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */; };
@@ -95,6 +101,12 @@
 		0A6D9C9F1CB92DF500B63309 /* check.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = check.gif; sourceTree = "<group>"; };
 		0A6D9CA11CB92E5000B63309 /* check2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check2.png; sourceTree = "<group>"; };
 		0A6D9CA31CB92EEC00B63309 /* check2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = check2.jpg; sourceTree = "<group>"; };
+		9903DFFF1CBF6DB600FCCF1A /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		9903E0011CBF72F200FCCF1A /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		9903E0031CBF826600FCCF1A /* Speech Bubble-501.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speech Bubble-501.png"; sourceTree = "<group>"; };
+		9903E0051CBF828D00FCCF1A /* fav1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav1.png; sourceTree = "<group>"; };
+		9903E0071CBF9E8600FCCF1A /* TestimonialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonialsViewController.swift; sourceTree = "<group>"; };
+		9903E0091CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vertical-dots_318-80287.jpeg"; sourceTree = "<group>"; };
 		99F698061CBE013400BF23E8 /* UserSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSignInViewController.swift; path = ../UserSignInViewController.swift; sourceTree = "<group>"; };
 		99F698081CBE0A0400BF23E8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Shake.swift"; sourceTree = "<group>"; };
@@ -191,6 +203,8 @@
 				99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */,
 				99F698181CBE3B0E00BF23E8 /* SideBarMenuViewController.swift */,
 				99F6982A1CBE712700BF23E8 /* ProfileScreeViewController.swift */,
+				9903E0071CBF9E8600FCCF1A /* TestimonialsViewController.swift */,
+				9903DFFF1CBF6DB600FCCF1A /* ProfileScreenViewController.swift */,
 				99FA44771CBCD26000A66572 /* ZQuestionCardsViewController.swift */,
 				99FA44791CBCD2AC00A66572 /* ZCarousel.swift */,
 				99F9D9431CBB6A0900445044 /* ImageSliderViewController.swift */,
@@ -207,6 +221,7 @@
 				99F9D9551CBBB7F300445044 /* DragableView.swift */,
 				99F9D9571CBBB82000445044 /* OverLayView.swift */,
 				0A6D9C701CB8BDA800B63309 /* LaunchScreen.storyboard */,
+				9903E0011CBF72F200FCCF1A /* test1.jpg */,
 				99F6980F1CBE2D9D00BF23E8 /* menu.png */,
 				99F698201CBE516100BF23E8 /* khalidWani.jpg */,
 				99F6982E1CBE7A7700BF23E8 /* Elon.jpg */,
@@ -217,6 +232,8 @@
 				0A6D9CA11CB92E5000B63309 /* check2.png */,
 				99F9D9511CBB7FB200445044 /* Unknown.jpg */,
 				0A6D9CA31CB92EEC00B63309 /* check2.jpg */,
+				9903E0031CBF826600FCCF1A /* Speech Bubble-501.png */,
+				9903E0051CBF828D00FCCF1A /* fav1.png */,
 				99F9D9471CBB714900445044 /* Yellow_star_small.png */,
 				0A6D9C731CB8BDA800B63309 /* Info.plist */,
 				99F6981E1CBE513E00BF23E8 /* images1.jpg */,
@@ -224,6 +241,7 @@
 				99F698221CBE5C3B00BF23E8 /* messageIcon.png */,
 				99F698261CBE5F5200BF23E8 /* linkedinLogo.png */,
 				99F698281CBE5F5E00BF23E8 /* twitterlogo.png */,
+				9903E0091CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg */,
 				99F9D94B1CBB727800445044 /* SSRadioButtonsController.swift */,
 				99F9D94D1CBB727D00445044 /* SSRadioButton.swift */,
 				0A6D9C6B1CB8BDA800B63309 /* ButlerApp.xcdatamodeld */,
@@ -383,10 +401,12 @@
 				99FA447F1CBCD34A00A66572 /* 3.png in Resources */,
 				0A6D9CA21CB92E5000B63309 /* check2.png in Resources */,
 				0A6D9CA41CB92EEC00B63309 /* check2.jpg in Resources */,
+				9903E0021CBF72F200FCCF1A /* test1.jpg in Resources */,
 				99F698101CBE2D9D00BF23E8 /* menu.png in Resources */,
 				0A6D9C721CB8BDA800B63309 /* LaunchScreen.storyboard in Resources */,
 				99F6981F1CBE513E00BF23E8 /* images1.jpg in Resources */,
 				0A6D9C6F1CB8BDA800B63309 /* Assets.xcassets in Resources */,
+				9903E00A1CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg in Resources */,
 				99F698251CBE5F4700BF23E8 /* FbLogo.png in Resources */,
 				99F9D94A1CBB724500445044 /* SSRadioButtonController in Resources */,
 				99FA44801CBCD34A00A66572 /* 2.png in Resources */,
@@ -396,6 +416,8 @@
 				0A6D9CA01CB92DF500B63309 /* check.gif in Resources */,
 				99FA447E1CBCD34A00A66572 /* 1.png in Resources */,
 				99F6982F1CBE7A7700BF23E8 /* Elon.jpg in Resources */,
+				9903E0061CBF828D00FCCF1A /* fav1.png in Resources */,
+				9903E0041CBF826600FCCF1A /* Speech Bubble-501.png in Resources */,
 				99F698271CBE5F5200BF23E8 /* linkedinLogo.png in Resources */,
 				99F698211CBE516100BF23E8 /* khalidWani.jpg in Resources */,
 			);
@@ -430,11 +452,13 @@
 				99F9D9581CBBB82000445044 /* OverLayView.swift in Sources */,
 				99F9D94C1CBB727800445044 /* SSRadioButtonsController.swift in Sources */,
 				99F9D9561CBBB7F300445044 /* DragableView.swift in Sources */,
+				9903E0001CBF6DB600FCCF1A /* ProfileScreenViewController.swift in Sources */,
 				0A6D9C9E1CB8DE1A00B63309 /* QuestionsViewController.swift in Sources */,
 				99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */,
 				99F6980E1CBE1A6100BF23E8 /* UserSignUpViewController.swift in Sources */,
 				99F9D9541CBBB7A800445044 /* DragableViewBackground.swift in Sources */,
 				99F9D9461CBB6A4700445044 /* SplashScreen.swift in Sources */,
+				9903E0081CBF9E8600FCCF1A /* TestimonialsViewController.swift in Sources */,
 				99F6982D1CBE763100BF23E8 /* ProfileTableCell.swift in Sources */,
 				0A6D9C671CB8BDA800B63309 /* ViewController.swift in Sources */,
 				99F6982B1CBE712700BF23E8 /* ProfileScreeViewController.swift in Sources */,

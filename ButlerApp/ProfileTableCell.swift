@@ -23,6 +23,17 @@ class ProfileTableCell: UITableViewCell {
     
     @IBOutlet weak var addFavouriteButton : UIButton!
     
+    @IBOutlet weak var testimonialsImageView: UIImageView!
+    
+     @IBOutlet weak var userProfileSegment: UISegmentedControl!
+    
+    
+    
+    
+    // for testimonial ContainerView
+    
+    @IBOutlet weak var testmonialsProfilePic: UIImageView!
+    
     var check = false
   
     override func awakeFromNib() {

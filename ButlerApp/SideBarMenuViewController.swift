@@ -71,6 +71,8 @@ class SideBarMenuViewController: UIViewController, UITableViewDelegate, UITableV
                 if(indexPath.row == 1)
                 {
                     menuOptionCell.optionLogoImage.image = UIImage(named: "ic_supervisor_account_white_36pt")
+                    
+                    self.storyboard!.instantiateViewControllerWithIdentifier("profileScreen")
                 }
                 if(indexPath.row == 2)
                 {
