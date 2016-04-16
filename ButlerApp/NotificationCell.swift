@@ -17,6 +17,12 @@ class NotificationCell: UITableViewCell
     
     @IBOutlet weak var pitchedLable: UILabel!
     @IBOutlet weak var profileImage: UIImageView!
+    
+    @IBOutlet weak var somelogo: UIButton!
+    
+    @IBAction func somelogopressed(sender: AnyObject)
+    {
+    }
     override func awakeFromNib()
     {
         super.awakeFromNib()

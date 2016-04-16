@@ -29,6 +29,33 @@
 		9903E00C1CBFAD2B00FCCF1A /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9903E00B1CBFAD2B00FCCF1A /* NotificationViewController.swift */; };
 		9903E00E1CBFAFE600FCCF1A /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9903E00D1CBFAFE600FCCF1A /* NotificationCell.swift */; };
 		9903E0101CBFB52400FCCF1A /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9903E00F1CBFB52400FCCF1A /* user.jpg */; };
+		9903E0121CBFC33700FCCF1A /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0111CBFC33700FCCF1A /* red.png */; };
+		9903E0141CBFC36000FCCF1A /* red1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0131CBFC36000FCCF1A /* red1.jpg */; };
+		9903E0161CBFC77900FCCF1A /* Toggle On-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0151CBFC77900FCCF1A /* Toggle On-52.png */; };
+		9903E0191CBFD43A00FCCF1A /* Like Filled-52-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0171CBFD43A00FCCF1A /* Like Filled-52-2.png */; };
+		9903E01A1CBFD43A00FCCF1A /* Like Filled-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0181CBFD43A00FCCF1A /* Like Filled-52.png */; };
+		994BD1051CC209F2002359F9 /* laundryImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1041CC209F2002359F9 /* laundryImage.jpg */; };
+		994BD1071CC20A2C002359F9 /* homeCleaning1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */; };
+		994BD1091CC20A39002359F9 /* carCleaning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1081CC20A39002359F9 /* carCleaning.jpg */; };
+		99F294691CC0A5A2000BE030 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F294681CC0A5A2000BE030 /* ServiceViewController.swift */; };
+		99F2946B1CC0AC62000BE030 /* CleaningServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2946A1CC0AC62000BE030 /* CleaningServicesViewController.swift */; };
+		99F2946D1CC0AD63000BE030 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2946C1CC0AD63000BE030 /* ServiceCell.swift */; };
+		99F294711CC0B24D000BE030 /* carwashingService.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F2946E1CC0B24D000BE030 /* carwashingService.jpg */; };
+		99F294721CC0B24D000BE030 /* homeCleaningService.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F2946F1CC0B24D000BE030 /* homeCleaningService.jpg */; };
+		99F294731CC0B24D000BE030 /* laundryService.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F294701CC0B24D000BE030 /* laundryService.jpg */; };
+		99F294751CC0B547000BE030 /* laundry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F294741CC0B547000BE030 /* laundry.jpg */; };
+		99F294781CC0B663000BE030 /* unavaiService.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294761CC0B663000BE030 /* unavaiService.png */; };
+		99F294791CC0B663000BE030 /* avail.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294771CC0B663000BE030 /* avail.png */; };
+		99F2947C1CC0BBC5000BE030 /* serviceAvail.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F2947A1CC0BBC5000BE030 /* serviceAvail.png */; };
+		99F2947D1CC0BBC5000BE030 /* serviceUnavail.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F2947B1CC0BBC5000BE030 /* serviceUnavail.png */; };
+		99F294811CC0BDE5000BE030 /* dotMenu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294801CC0BDE5000BE030 /* dotMenu1.png */; };
+		99F294831CC0CAC3000BE030 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F294821CC0CAC3000BE030 /* CategoryCollectionViewCell.swift */; };
+		99F294851CC0D516000BE030 /* StandingMan-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294841CC0D516000BE030 /* StandingMan-48.png */; };
+		99F2948A1CC0DB64000BE030 /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294861CC0DB64000BE030 /* currency.png */; };
+		99F2948B1CC0DB64000BE030 /* finance.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294871CC0DB64000BE030 /* finance.png */; };
+		99F2948C1CC0DB64000BE030 /* homeClean.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294881CC0DB64000BE030 /* homeClean.png */; };
+		99F2948D1CC0DB64000BE030 /* homecleanBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294891CC0DB64000BE030 /* homecleanBlack.png */; };
+		99F2948F1CC0F354000BE030 /* ImageViewHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2948E1CC0F354000BE030 /* ImageViewHolderViewController.swift */; };
 		99F698071CBE013400BF23E8 /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698061CBE013400BF23E8 /* UserSignInViewController.swift */; };
 		99F698091CBE0A0400BF23E8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F698081CBE0A0400BF23E8 /* Util.swift */; };
 		99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */; };
@@ -65,6 +92,7 @@
 		99FA447E1CBCD34A00A66572 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA447B1CBCD34A00A66572 /* 1.png */; };
 		99FA447F1CBCD34A00A66572 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA447C1CBCD34A00A66572 /* 3.png */; };
 		99FA44801CBCD34A00A66572 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA447D1CBCD34A00A66572 /* 2.png */; };
+		F5BE3E7694BF1CECF175C8A2 /* Pods_ButlerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0159BF739E3BB703A6960AF9 /* Pods_ButlerApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +113,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0159BF739E3BB703A6960AF9 /* Pods_ButlerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButlerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6D9C611CB8BDA800B63309 /* ButlerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButlerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6D9C641CB8BDA800B63309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A6D9C661CB8BDA800B63309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +133,7 @@
 		0A6D9C9F1CB92DF500B63309 /* check.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = check.gif; sourceTree = "<group>"; };
 		0A6D9CA11CB92E5000B63309 /* check2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check2.png; sourceTree = "<group>"; };
 		0A6D9CA31CB92EEC00B63309 /* check2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = check2.jpg; sourceTree = "<group>"; };
+		5987924E43DC77CCEECB9331 /* Pods-ButlerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButlerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButlerApp/Pods-ButlerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9903DFFF1CBF6DB600FCCF1A /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
 		9903E0011CBF72F200FCCF1A /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
 		9903E0031CBF826600FCCF1A /* Speech Bubble-501.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speech Bubble-501.png"; sourceTree = "<group>"; };
@@ -113,6 +143,33 @@
 		9903E00B1CBFAD2B00FCCF1A /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		9903E00D1CBFAFE600FCCF1A /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		9903E00F1CBFB52400FCCF1A /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
+		9903E0111CBFC33700FCCF1A /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		9903E0131CBFC36000FCCF1A /* red1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red1.jpg; sourceTree = "<group>"; };
+		9903E0151CBFC77900FCCF1A /* Toggle On-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toggle On-52.png"; sourceTree = "<group>"; };
+		9903E0171CBFD43A00FCCF1A /* Like Filled-52-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-52-2.png"; sourceTree = "<group>"; };
+		9903E0181CBFD43A00FCCF1A /* Like Filled-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-52.png"; sourceTree = "<group>"; };
+		994BD1041CC209F2002359F9 /* laundryImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laundryImage.jpg; sourceTree = "<group>"; };
+		994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeCleaning1.jpg; sourceTree = "<group>"; };
+		994BD1081CC20A39002359F9 /* carCleaning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carCleaning.jpg; sourceTree = "<group>"; };
+		99F294681CC0A5A2000BE030 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		99F2946A1CC0AC62000BE030 /* CleaningServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleaningServicesViewController.swift; sourceTree = "<group>"; };
+		99F2946C1CC0AD63000BE030 /* ServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		99F2946E1CC0B24D000BE030 /* carwashingService.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carwashingService.jpg; sourceTree = "<group>"; };
+		99F2946F1CC0B24D000BE030 /* homeCleaningService.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeCleaningService.jpg; sourceTree = "<group>"; };
+		99F294701CC0B24D000BE030 /* laundryService.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laundryService.jpg; sourceTree = "<group>"; };
+		99F294741CC0B547000BE030 /* laundry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laundry.jpg; sourceTree = "<group>"; };
+		99F294761CC0B663000BE030 /* unavaiService.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unavaiService.png; sourceTree = "<group>"; };
+		99F294771CC0B663000BE030 /* avail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avail.png; sourceTree = "<group>"; };
+		99F2947A1CC0BBC5000BE030 /* serviceAvail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serviceAvail.png; sourceTree = "<group>"; };
+		99F2947B1CC0BBC5000BE030 /* serviceUnavail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serviceUnavail.png; sourceTree = "<group>"; };
+		99F294801CC0BDE5000BE030 /* dotMenu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotMenu1.png; sourceTree = "<group>"; };
+		99F294821CC0CAC3000BE030 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		99F294841CC0D516000BE030 /* StandingMan-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StandingMan-48.png"; sourceTree = "<group>"; };
+		99F294861CC0DB64000BE030 /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
+		99F294871CC0DB64000BE030 /* finance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finance.png; sourceTree = "<group>"; };
+		99F294881CC0DB64000BE030 /* homeClean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeClean.png; sourceTree = "<group>"; };
+		99F294891CC0DB64000BE030 /* homecleanBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homecleanBlack.png; sourceTree = "<group>"; };
+		99F2948E1CC0F354000BE030 /* ImageViewHolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewHolderViewController.swift; sourceTree = "<group>"; };
 		99F698061CBE013400BF23E8 /* UserSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSignInViewController.swift; path = ../UserSignInViewController.swift; sourceTree = "<group>"; };
 		99F698081CBE0A0400BF23E8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		99F6980A1CBE177600BF23E8 /* UITextField+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Shake.swift"; sourceTree = "<group>"; };
@@ -151,6 +208,7 @@
 		99FA447B1CBCD34A00A66572 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		99FA447C1CBCD34A00A66572 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		99FA447D1CBCD34A00A66572 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B5DC1DAA15CBECA31EDA1D10 /* Pods-ButlerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButlerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButlerApp/Pods-ButlerApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BE3E7694BF1CECF175C8A2 /* Pods_ButlerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +244,8 @@
 				0A6D9C7B1CB8BDA800B63309 /* ButlerAppTests */,
 				0A6D9C861CB8BDA800B63309 /* ButlerAppUITests */,
 				0A6D9C621CB8BDA800B63309 /* Products */,
+				93A5D677FC58AA92977A4DA5 /* Pods */,
+				1CEDB12B58FF7B41F95A63EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +270,8 @@
 				99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */,
 				99F698181CBE3B0E00BF23E8 /* SideBarMenuViewController.swift */,
 				99F6982A1CBE712700BF23E8 /* ProfileScreeViewController.swift */,
+				99F294681CC0A5A2000BE030 /* ServiceViewController.swift */,
+				99F2946A1CC0AC62000BE030 /* CleaningServicesViewController.swift */,
 				9903E0071CBF9E8600FCCF1A /* TestimonialsViewController.swift */,
 				9903DFFF1CBF6DB600FCCF1A /* ProfileScreenViewController.swift */,
 				9903E00B1CBFAD2B00FCCF1A /* NotificationViewController.swift */,
@@ -249,7 +312,29 @@
 				99F698261CBE5F5200BF23E8 /* linkedinLogo.png */,
 				99F698281CBE5F5E00BF23E8 /* twitterlogo.png */,
 				9903E0091CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg */,
+				9903E0111CBFC33700FCCF1A /* red.png */,
+				9903E0131CBFC36000FCCF1A /* red1.jpg */,
 				9903E00F1CBFB52400FCCF1A /* user.jpg */,
+				9903E0151CBFC77900FCCF1A /* Toggle On-52.png */,
+				9903E0171CBFD43A00FCCF1A /* Like Filled-52-2.png */,
+				9903E0181CBFD43A00FCCF1A /* Like Filled-52.png */,
+				99F2946E1CC0B24D000BE030 /* carwashingService.jpg */,
+				99F2946F1CC0B24D000BE030 /* homeCleaningService.jpg */,
+				99F294741CC0B547000BE030 /* laundry.jpg */,
+				99F294701CC0B24D000BE030 /* laundryService.jpg */,
+				99F2947A1CC0BBC5000BE030 /* serviceAvail.png */,
+				99F2947B1CC0BBC5000BE030 /* serviceUnavail.png */,
+				99F294761CC0B663000BE030 /* unavaiService.png */,
+				99F294771CC0B663000BE030 /* avail.png */,
+				99F294801CC0BDE5000BE030 /* dotMenu1.png */,
+				99F294841CC0D516000BE030 /* StandingMan-48.png */,
+				99F294861CC0DB64000BE030 /* currency.png */,
+				99F294871CC0DB64000BE030 /* finance.png */,
+				99F294881CC0DB64000BE030 /* homeClean.png */,
+				99F294891CC0DB64000BE030 /* homecleanBlack.png */,
+				994BD1041CC209F2002359F9 /* laundryImage.jpg */,
+				994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */,
+				994BD1081CC20A39002359F9 /* carCleaning.jpg */,
 				99F9D94B1CBB727800445044 /* SSRadioButtonsController.swift */,
 				99F9D94D1CBB727D00445044 /* SSRadioButton.swift */,
 				0A6D9C6B1CB8BDA800B63309 /* ButlerApp.xcdatamodeld */,
@@ -276,6 +361,23 @@
 			path = ButlerAppUITests;
 			sourceTree = "<group>";
 		};
+		1CEDB12B58FF7B41F95A63EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0159BF739E3BB703A6960AF9 /* Pods_ButlerApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93A5D677FC58AA92977A4DA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5987924E43DC77CCEECB9331 /* Pods-ButlerApp.debug.xcconfig */,
+				B5DC1DAA15CBECA31EDA1D10 /* Pods-ButlerApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99F6980C1CBE178900BF23E8 /* CustomeFIles */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +386,9 @@
 				99F6981C1CBE46D100BF23E8 /* SideBarOptionCell.swift */,
 				99F6982C1CBE763100BF23E8 /* ProfileTableCell.swift */,
 				9903E00D1CBFAFE600FCCF1A /* NotificationCell.swift */,
+				99F2946C1CC0AD63000BE030 /* ServiceCell.swift */,
+				99F294821CC0CAC3000BE030 /* CategoryCollectionViewCell.swift */,
+				99F2948E1CC0F354000BE030 /* ImageViewHolderViewController.swift */,
 			);
 			name = CustomeFIles;
 			sourceTree = "<group>";
@@ -305,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A6D9C8C1CB8BDA800B63309 /* Build configuration list for PBXNativeTarget "ButlerApp" */;
 			buildPhases = (
+				3429827CD8C6905E5011FF69 /* Check Pods Manifest.lock */,
 				0A6D9C5D1CB8BDA800B63309 /* Sources */,
 				0A6D9C5E1CB8BDA800B63309 /* Frameworks */,
 				0A6D9C5F1CB8BDA800B63309 /* Resources */,
+				AA0C975D1BAEB8824AA4F795 /* Embed Pods Frameworks */,
+				82F920B9CA1DBA4A747086B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -406,30 +514,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F698231CBE5C3B00BF23E8 /* messageIcon.png in Resources */,
+				99F294721CC0B24D000BE030 /* homeCleaningService.jpg in Resources */,
 				9903E0101CBFB52400FCCF1A /* user.jpg in Resources */,
+				9903E0161CBFC77900FCCF1A /* Toggle On-52.png in Resources */,
 				99F698291CBE5F5E00BF23E8 /* twitterlogo.png in Resources */,
 				99FA447F1CBCD34A00A66572 /* 3.png in Resources */,
 				0A6D9CA21CB92E5000B63309 /* check2.png in Resources */,
+				99F294781CC0B663000BE030 /* unavaiService.png in Resources */,
+				99F2948C1CC0DB64000BE030 /* homeClean.png in Resources */,
 				0A6D9CA41CB92EEC00B63309 /* check2.jpg in Resources */,
 				9903E0021CBF72F200FCCF1A /* test1.jpg in Resources */,
+				99F294711CC0B24D000BE030 /* carwashingService.jpg in Resources */,
+				99F294851CC0D516000BE030 /* StandingMan-48.png in Resources */,
+				99F2948D1CC0DB64000BE030 /* homecleanBlack.png in Resources */,
+				994BD1051CC209F2002359F9 /* laundryImage.jpg in Resources */,
 				99F698101CBE2D9D00BF23E8 /* menu.png in Resources */,
+				9903E0191CBFD43A00FCCF1A /* Like Filled-52-2.png in Resources */,
+				99F294791CC0B663000BE030 /* avail.png in Resources */,
+				99F294731CC0B24D000BE030 /* laundryService.jpg in Resources */,
 				0A6D9C721CB8BDA800B63309 /* LaunchScreen.storyboard in Resources */,
 				99F6981F1CBE513E00BF23E8 /* images1.jpg in Resources */,
+				99F294751CC0B547000BE030 /* laundry.jpg in Resources */,
+				99F2948B1CC0DB64000BE030 /* finance.png in Resources */,
 				0A6D9C6F1CB8BDA800B63309 /* Assets.xcassets in Resources */,
+				99F294811CC0BDE5000BE030 /* dotMenu1.png in Resources */,
 				9903E00A1CBFA40B00FCCF1A /* vertical-dots_318-80287.jpeg in Resources */,
+				99F2947C1CC0BBC5000BE030 /* serviceAvail.png in Resources */,
 				99F698251CBE5F4700BF23E8 /* FbLogo.png in Resources */,
 				99F9D94A1CBB724500445044 /* SSRadioButtonController in Resources */,
 				99FA44801CBCD34A00A66572 /* 2.png in Resources */,
 				99F9D9521CBB7FB200445044 /* Unknown.jpg in Resources */,
+				99F2948A1CC0DB64000BE030 /* currency.png in Resources */,
 				0A6D9C6A1CB8BDA800B63309 /* Main.storyboard in Resources */,
+				9903E0121CBFC33700FCCF1A /* red.png in Resources */,
+				9903E01A1CBFD43A00FCCF1A /* Like Filled-52.png in Resources */,
+				99F2947D1CC0BBC5000BE030 /* serviceUnavail.png in Resources */,
 				99F9D9481CBB714900445044 /* Yellow_star_small.png in Resources */,
 				0A6D9CA01CB92DF500B63309 /* check.gif in Resources */,
 				99FA447E1CBCD34A00A66572 /* 1.png in Resources */,
 				99F6982F1CBE7A7700BF23E8 /* Elon.jpg in Resources */,
+				9903E0141CBFC36000FCCF1A /* red1.jpg in Resources */,
 				9903E0061CBF828D00FCCF1A /* fav1.png in Resources */,
+				994BD1091CC20A39002359F9 /* carCleaning.jpg in Resources */,
 				9903E0041CBF826600FCCF1A /* Speech Bubble-501.png in Resources */,
 				99F698271CBE5F5200BF23E8 /* linkedinLogo.png in Resources */,
 				99F698211CBE516100BF23E8 /* khalidWani.jpg in Resources */,
+				994BD1071CC20A2C002359F9 /* homeCleaning1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +579,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3429827CD8C6905E5011FF69 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82F920B9CA1DBA4A747086B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButlerApp/Pods-ButlerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0C975D1BAEB8824AA4F795 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButlerApp/Pods-ButlerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A6D9C5D1CB8BDA800B63309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -460,10 +638,13 @@
 				0A6D9C6D1CB8BDA800B63309 /* ButlerApp.xcdatamodeld in Sources */,
 				99FA447A1CBCD2AC00A66572 /* ZCarousel.swift in Sources */,
 				99F9D9581CBBB82000445044 /* OverLayView.swift in Sources */,
+				99F294691CC0A5A2000BE030 /* ServiceViewController.swift in Sources */,
 				99F9D94C1CBB727800445044 /* SSRadioButtonsController.swift in Sources */,
 				99F9D9561CBBB7F300445044 /* DragableView.swift in Sources */,
+				99F2948F1CC0F354000BE030 /* ImageViewHolderViewController.swift in Sources */,
 				9903E0001CBF6DB600FCCF1A /* ProfileScreenViewController.swift in Sources */,
 				0A6D9C9E1CB8DE1A00B63309 /* QuestionsViewController.swift in Sources */,
+				99F2946B1CC0AC62000BE030 /* CleaningServicesViewController.swift in Sources */,
 				99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */,
 				99F6980E1CBE1A6100BF23E8 /* UserSignUpViewController.swift in Sources */,
 				99F9D9541CBBB7A800445044 /* DragableViewBackground.swift in Sources */,
@@ -478,6 +659,7 @@
 				9903E00C1CBFAD2B00FCCF1A /* NotificationViewController.swift in Sources */,
 				99F698071CBE013400BF23E8 /* UserSignInViewController.swift in Sources */,
 				0A6D9C651CB8BDA800B63309 /* AppDelegate.swift in Sources */,
+				99F294831CC0CAC3000BE030 /* CategoryCollectionViewCell.swift in Sources */,
 				99FA44781CBCD26000A66572 /* ZQuestionCardsViewController.swift in Sources */,
 				99F698191CBE3B0E00BF23E8 /* SideBarMenuViewController.swift in Sources */,
 				99F9D9501CBB761800445044 /* FirstQViewController.swift in Sources */,
@@ -485,6 +667,7 @@
 				0A6D9C961CB8CAEE00B63309 /* PageViewController.swift in Sources */,
 				99F6981D1CBE46D100BF23E8 /* SideBarOptionCell.swift in Sources */,
 				99F9D9441CBB6A0900445044 /* ImageSliderViewController.swift in Sources */,
+				99F2946D1CC0AD63000BE030 /* ServiceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +805,7 @@
 		};
 		0A6D9C8D1CB8BDA800B63309 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5987924E43DC77CCEECB9331 /* Pods-ButlerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -636,6 +820,7 @@
 		};
 		0A6D9C8E1CB8BDA800B63309 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DC1DAA15CBECA31EDA1D10 /* Pods-ButlerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

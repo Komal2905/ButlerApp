@@ -95,6 +95,9 @@ class SideBarMenuViewController: UIViewController, UITableViewDelegate, UITableV
                 }
                 if(indexPath.row == 5)
                 {
+                    
+                    self.tableView.allowsSelection = true
+
                     menuOptionCell.optionLogoImage.image = UIImage(named: "ic_add_alert_white_36pt")
                     menuOptionCell.subOption.text = "+27"
 
