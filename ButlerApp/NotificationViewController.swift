@@ -8,6 +8,10 @@
 
 import UIKit
 
+import Firebase
+
+import JSQMessagesViewController
+
 class NotificationViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
     
@@ -17,6 +21,8 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
     var nameArray = ["Shahrukh Khan","Salman Khan","Narenda Modi","Irfan khan","Rahul Dravid","Adam D'Anglo", "Huge Jackman","Ralf Stephens"]
     
     var serviceArray = ["PITHCED 200 $ FOR ACTIONG SERVICE","PITHCED 1200 $ FOR ACTIONG SERVICE","PITHCED 300 $ FOR ACTIONG SERVICE","PITHCED 400 $ FOR ACTIONG SERVICE","PITHCED 500 $ FOR ACTIONG SERVICE","PITHCED 500 $ FOR ACTIONG SERVICE","PITHCED 700 $ FOR ACTIONG SERVICE","PITHCED 800 $ FOR ACTIONG SERVICE"]
+    
+     var ref: Firebase! // for char window
     
     
     
@@ -34,6 +40,9 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
         }
         
         //self.revealViewController().rearViewRevealWidth = 200
+        
+        // For Chat FireBase
+        ref = Firebase(url: "https://notificationbutlerchat.firebaseio.com") // 2
     }
 
     override func didReceiveMemoryWarning()
@@ -50,7 +59,7 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell = UITableViewCell()
+       
         
        // tableView.rowHeight = 60
         // tableView.rowHeight = 210
@@ -67,7 +76,7 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
             return notificationCell
         }
             
-            var a = "Speech Bubble-501.png"
+        
         
         if(indexPath.row == 4)
         {
@@ -113,6 +122,8 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
     var isSelected : Bool = false
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
+        
+        print("Selected    00 ")
         let selectedCell = tableView.cellForRowAtIndexPath(indexPath) as! NotificationCell
         if(isSelected == false)
         {
@@ -134,6 +145,21 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
             isSelected = false
         }
         
+        
+        ref.authAnonymouslyWithCompletionBlock { (error, authData) in
+            if error != nil {print(error.description); return}
+            self.performSegueWithIdentifier("startChat", sender: nil)
+        }
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        super.prepareForSegue(segue, sender: sender)
+        
+        let navVc = segue.destinationViewController as! UINavigationController
+        let chatVc = navVc.viewControllers.first as! ChatViewController
+        chatVc.senderId = ref.authData.uid
+        chatVc.senderDisplayName = ""
     }
     
     

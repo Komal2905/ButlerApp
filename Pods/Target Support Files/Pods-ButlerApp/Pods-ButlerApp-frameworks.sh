@@ -86,10 +86,16 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ButlerApp/Alamofire.framework"
   install_framework "Pods-ButlerApp/AlamofireImage.framework"
+  install_framework "Pods-ButlerApp/Firebase.framework"
   install_framework "Pods-ButlerApp/ImageSlideshow.framework"
+  install_framework "Pods-ButlerApp/JSQMessagesViewController.framework"
+  install_framework "Pods-ButlerApp/JSQSystemSoundPlayer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ButlerApp/Alamofire.framework"
   install_framework "Pods-ButlerApp/AlamofireImage.framework"
+  install_framework "Pods-ButlerApp/Firebase.framework"
   install_framework "Pods-ButlerApp/ImageSlideshow.framework"
+  install_framework "Pods-ButlerApp/JSQMessagesViewController.framework"
+  install_framework "Pods-ButlerApp/JSQSystemSoundPlayer.framework"
 fi

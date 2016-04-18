@@ -9,7 +9,7 @@
 import UIKit
 import ImageSlideshow
 
-class ButlerHomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate
+class ButlerHomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout
 {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
@@ -23,10 +23,16 @@ class ButlerHomeViewController: UIViewController, UICollectionViewDataSource, UI
     var transitionDelegate: ZoomAnimatedTransitioningDelegate?
     
     
+    @IBOutlet weak var categoryCollectionView: UICollectionView!
     
     var serviceNameArray = ["Home Cleaning Services","Laundry Services", "Financial and Wealth Planner","Financial Constultant"]
     
     var categoryLogoArray = ["homeClean.png","homecleanBlack.png","finance.png","currency.png"]
+    
+    var screenSize: CGRect!
+    var screenWidth: CGFloat!
+    var screenHeight: CGFloat!
+    
     var util = Util()
     override func viewDidLoad()
     {
@@ -68,6 +74,19 @@ class ButlerHomeViewController: UIViewController, UICollectionViewDataSource, UI
         
         let recognizer = UITapGestureRecognizer(target: self, action: "click")
         slideshow.addGestureRecognizer(recognizer)
+        
+        
+        screenSize = UIScreen.mainScreen().bounds
+        screenWidth = screenSize.width
+        screenHeight = screenSize.height
+        
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
+        layout.itemSize = CGSize(width: screenWidth/3, height: screenWidth/3)
+        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = 0
+        
+        categoryCollectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
 
     }
 
@@ -107,6 +126,8 @@ class ButlerHomeViewController: UIViewController, UICollectionViewDataSource, UI
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let categoryCell = collectionView.dequeueReusableCellWithReuseIdentifier("category", forIndexPath: indexPath) as! CategoryCollectionViewCell
         
+        
+       
         categoryCell.layer.borderWidth = 1.0
         categoryCell.layer.borderColor = UIColor.lightGrayColor().CGColor
         
@@ -116,5 +137,12 @@ class ButlerHomeViewController: UIViewController, UICollectionViewDataSource, UI
         
         
         return categoryCell
+    }
+    
+    func collectionView(collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                               sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let cellHeight = 150
+        return CGSizeMake(collectionView.bounds.size.width/2, CGFloat(cellHeight))
     }
 }

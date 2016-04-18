@@ -34,6 +34,7 @@
 		9903E0161CBFC77900FCCF1A /* Toggle On-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0151CBFC77900FCCF1A /* Toggle On-52.png */; };
 		9903E0191CBFD43A00FCCF1A /* Like Filled-52-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0171CBFD43A00FCCF1A /* Like Filled-52-2.png */; };
 		9903E01A1CBFD43A00FCCF1A /* Like Filled-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903E0181CBFD43A00FCCF1A /* Like Filled-52.png */; };
+		99081E321CC4CA5400AE211A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99081E311CC4CA5400AE211A /* ChatViewController.swift */; };
 		994BD1051CC209F2002359F9 /* laundryImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1041CC209F2002359F9 /* laundryImage.jpg */; };
 		994BD1071CC20A2C002359F9 /* homeCleaning1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */; };
 		994BD1091CC20A39002359F9 /* carCleaning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1081CC20A39002359F9 /* carCleaning.jpg */; };
@@ -148,6 +149,7 @@
 		9903E0151CBFC77900FCCF1A /* Toggle On-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toggle On-52.png"; sourceTree = "<group>"; };
 		9903E0171CBFD43A00FCCF1A /* Like Filled-52-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-52-2.png"; sourceTree = "<group>"; };
 		9903E0181CBFD43A00FCCF1A /* Like Filled-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-52.png"; sourceTree = "<group>"; };
+		99081E311CC4CA5400AE211A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		994BD1041CC209F2002359F9 /* laundryImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laundryImage.jpg; sourceTree = "<group>"; };
 		994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeCleaning1.jpg; sourceTree = "<group>"; };
 		994BD1081CC20A39002359F9 /* carCleaning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carCleaning.jpg; sourceTree = "<group>"; };
@@ -268,13 +270,14 @@
 				0A6D9C661CB8BDA800B63309 /* ViewController.swift */,
 				0A6D9C681CB8BDA800B63309 /* Main.storyboard */,
 				99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */,
+				99081E311CC4CA5400AE211A /* ChatViewController.swift */,
+				9903E00B1CBFAD2B00FCCF1A /* NotificationViewController.swift */,
 				99F698181CBE3B0E00BF23E8 /* SideBarMenuViewController.swift */,
 				99F6982A1CBE712700BF23E8 /* ProfileScreeViewController.swift */,
 				99F294681CC0A5A2000BE030 /* ServiceViewController.swift */,
 				99F2946A1CC0AC62000BE030 /* CleaningServicesViewController.swift */,
 				9903E0071CBF9E8600FCCF1A /* TestimonialsViewController.swift */,
 				9903DFFF1CBF6DB600FCCF1A /* ProfileScreenViewController.swift */,
-				9903E00B1CBFAD2B00FCCF1A /* NotificationViewController.swift */,
 				99FA44771CBCD26000A66572 /* ZQuestionCardsViewController.swift */,
 				99FA44791CBCD2AC00A66572 /* ZCarousel.swift */,
 				99F9D9431CBB6A0900445044 /* ImageSliderViewController.swift */,
@@ -665,6 +668,7 @@
 				99F9D9501CBB761800445044 /* FirstQViewController.swift in Sources */,
 				99F698171CBE304200BF23E8 /* SWRevealViewController.m in Sources */,
 				0A6D9C961CB8CAEE00B63309 /* PageViewController.swift in Sources */,
+				99081E321CC4CA5400AE211A /* ChatViewController.swift in Sources */,
 				99F6981D1CBE46D100BF23E8 /* SideBarOptionCell.swift in Sources */,
 				99F9D9441CBB6A0900445044 /* ImageSliderViewController.swift in Sources */,
 				99F2946D1CC0AD63000BE030 /* ServiceCell.swift in Sources */,

@@ -484,9 +484,9 @@
                                 <rect key="frame" x="0.0" y="58" width="320" height="510"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mQo-rw-A60">
-                                        <rect key="frame" x="0.0" y="225" width="320" height="348"/>
+                                        <rect key="frame" x="0.0" y="225" width="320" height="365"/>
                                         <color key="backgroundColor" red="0.96654647435897434" green="0.96654647435897434" blue="0.96654647435897434" alpha="1" colorSpace="calibratedRGB"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sJG-sO-hgo">
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="sJG-sO-hgo">
                                             <size key="itemSize" width="154" height="148"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -494,10 +494,10 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="category" id="0WB-ek-sMs" customClass="CategoryCollectionViewCell" customModule="ButlerApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="154" height="148"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="160" height="148"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                                    <rect key="frame" x="0.0" y="0.0" width="154" height="148"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="148"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qna-43-JhL">
@@ -524,7 +524,7 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
-                                                <size key="customSize" width="154" height="148"/>
+                                                <size key="customSize" width="160" height="148"/>
                                                 <connections>
                                                     <outlet property="categoryLogo" destination="uKA-zT-0NF" id="2mi-PY-FYa"/>
                                                     <outlet property="categoryName" destination="qna-43-JhL" id="oUD-hq-C1v"/>
@@ -590,6 +590,26 @@
             </objects>
             <point key="canvasLocation" x="-174" y="3144"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="TQH-Z4-HjU">
+            <objects>
+                <viewController id="OjK-Wa-c22" customClass="ChatViewController" customModule="ButlerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="swj-5u-Ry8"/>
+                        <viewControllerLayoutGuide type="bottom" id="QVr-Gw-T8s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rLG-zd-yfj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hVj-tZ-yxY"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JUX-7W-1Fx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="3784"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="lJV-9L-CRs">
             <objects>
@@ -607,7 +627,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GEW-m8-6LI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-262" y="3784"/>
+            <point key="canvasLocation" x="550" y="3784"/>
         </scene>
         <!--Profile Scree View Controller-->
         <scene sceneID="GQH-ce-q2v">
@@ -900,7 +920,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lNj-wz-D5P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87" y="3756"/>
+            <point key="canvasLocation" x="899" y="3756"/>
         </scene>
         <!--Service View Controller-->
         <scene sceneID="Fea-zh-zKB">
@@ -1033,7 +1053,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0I-Me-4z5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1303" y="3378"/>
+            <point key="canvasLocation" x="2115" y="3378"/>
         </scene>
         <!--Notification View Controller-->
         <scene sceneID="wqG-MM-RsV">
@@ -1099,6 +1119,7 @@
                                             <outlet property="pitchedLable" destination="Lch-oc-A6S" id="DZc-kj-anK"/>
                                             <outlet property="profileImage" destination="YWm-Te-BPd" id="eLO-B3-jzQ"/>
                                             <outlet property="somelogo" destination="1Yk-MN-sMJ" id="y30-hE-0wq"/>
+                                            <segue destination="Wyc-KT-h78" kind="presentation" identifier="startChat" id="smm-9x-w77"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1108,7 +1129,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94148637820000003" green="0.5065409164634096" blue="0.041502308716372012" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -1583,7 +1604,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqc-J4-WSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="494" y="3680"/>
+            <point key="canvasLocation" x="1306" y="3680"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6gP-9S-TVZ">
@@ -1757,6 +1778,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMh-id-4b1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="504" y="2050.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aXT-nA-79x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wyc-KT-h78" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LMW-kX-K2x">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.94148637820000003" green="0.71487418120000001" blue="0.23466309029999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OjK-Wa-c22" kind="relationship" relationship="rootViewController" id="dHv-5W-s7U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L2b-MB-yo2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-631" y="3796"/>
         </scene>
     </scenes>
     <resources>

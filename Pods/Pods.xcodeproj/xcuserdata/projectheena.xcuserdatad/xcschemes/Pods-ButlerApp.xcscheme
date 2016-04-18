@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '65A02F054359D6E5BB1FCD31'
+               BlueprintIdentifier = '68E98A225148B04E6897010D'
                BlueprintName = 'Pods-ButlerApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_ButlerApp.framework'>

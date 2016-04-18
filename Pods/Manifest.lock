@@ -2,20 +2,29 @@ PODS:
   - Alamofire (3.3.1)
   - AlamofireImage (2.4.0):
     - Alamofire (~> 3.3)
+  - Firebase (2.5.1)
   - ImageSlideshow (0.4.0):
     - ImageSlideshow/Core (= 0.4.0)
   - ImageSlideshow/Alamofire (0.4.0):
     - AlamofireImage (~> 2.0)
     - ImageSlideshow/Core
   - ImageSlideshow/Core (0.4.0)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
 
 DEPENDENCIES:
+  - Firebase
   - ImageSlideshow (~> 0.4)
   - ImageSlideshow/Alamofire
+  - JSQMessagesViewController
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
   AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
   ImageSlideshow: 0d3632bc0c2b4d3fff24a49ce4d3022af8238b03
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
 
 COCOAPODS: 0.39.0

@@ -7,6 +7,9 @@ target 'ButlerApp' do
 pod 'ImageSlideshow', '~> 0.4'
 pod "ImageSlideshow/Alamofire"
 
+pod 'Firebase'
+pod 'JSQMessagesViewController'
+
 end
 
 target 'ButlerAppTests' do
