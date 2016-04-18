@@ -81,7 +81,10 @@ class ChatViewController: JSQMessagesViewController
     }
     override func didPressSendButton(button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: NSDate!) {
         let itemRef = messageRef.childByAutoId() // 1
-        let messageItem = [ "text": text,"senderId": senderId]
+        
+        print("Sender ID IN PRESSED",senderId)
+        
+        let messageItem = [ "text": text,"senderId": "komal"]
         itemRef.setValue(messageItem) // 3
         
         // 4
@@ -105,7 +108,17 @@ class ChatViewController: JSQMessagesViewController
     func addMessage(id : String,text : String)
     {
         let message = JSQMessage(senderId: id, displayName: "", text: text)
+        
+       print("ID in Add msg", id)
         messages.append(message)
+    }
+    
+    
+    func addMessageWithName(id : String,text : String, senderDisplayName : String)
+    {
+        let testMessage = JSQMessage(senderId: id, displayName: senderDisplayName, text: text)
+        
+        messages.append(testMessage)
     }
     
     private func observeMessages()
@@ -117,9 +130,13 @@ class ChatViewController: JSQMessagesViewController
             // 3
             let id = snapshot.value["senderId"] as! String
             let text = snapshot.value["text"] as! String
+            print("ID in Observer",id)
             
             // 4
             self.addMessage(id, text: text)
+            
+           // self.addMessage("komal", text: text)
+            
             
             // 5
             self.finishReceivingMessage()
@@ -177,10 +194,20 @@ class ChatViewController: JSQMessagesViewController
                                  messageBubbleImageDataForItemAtIndexPath indexPath: NSIndexPath!) -> JSQMessageBubbleImageDataSource!
     {
         let message = messages[indexPath.item] // 1
-        if message.senderId == senderId
+        
+        print("message.senderId FROM DB",message.senderId)
+        
+        print("senderId",senderId)
+
+        //if message.senderId != "komal"//senderId
+            
+        //if senderId != "komal"
+            
+        if message.senderId == "komal"
         {
             return outgoingBubbleImageView
-        } else
+        }
+        else
         {
             return incomingBubbleImageView
         }
@@ -199,7 +226,7 @@ class ChatViewController: JSQMessagesViewController
         
         let message = messages[indexPath.row]
         
-        if message.senderId == senderId
+        if message.senderId == "komal"//senderId //
         {
             cell.textView.textColor =  UIColor.whiteColor()
         }

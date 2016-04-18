@@ -1119,7 +1119,7 @@
                                             <outlet property="pitchedLable" destination="Lch-oc-A6S" id="DZc-kj-anK"/>
                                             <outlet property="profileImage" destination="YWm-Te-BPd" id="eLO-B3-jzQ"/>
                                             <outlet property="somelogo" destination="1Yk-MN-sMJ" id="y30-hE-0wq"/>
-                                            <segue destination="Wyc-KT-h78" kind="presentation" identifier="startChat" id="smm-9x-w77"/>
+                                            <segue destination="Wyc-KT-h78" kind="presentation" identifier="startChat" id="odc-A6-Oux"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1797,7 +1797,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2b-MB-yo2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-631" y="3796"/>
+            <point key="canvasLocation" x="-637" y="3837"/>
         </scene>
     </scenes>
     <resources>

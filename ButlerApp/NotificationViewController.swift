@@ -100,6 +100,14 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
             //notificationCell.somelogo.hidden = true
             return notificationCell
         }
+        
+//        ref.authAnonymouslyWithCompletionBlock { (error, authData) in
+//            if error != nil {print("You have one error",error.description); return}
+//            
+//            
+//            self.performSegueWithIdentifier("startChat", sender: nil)
+//        }
+
     }
     
     
@@ -147,7 +155,9 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
         
         
         ref.authAnonymouslyWithCompletionBlock { (error, authData) in
-            if error != nil {print(error.description); return}
+            if error != nil {print("You have one error",error.description); return}
+            
+            
             self.performSegueWithIdentifier("startChat", sender: nil)
         }
         
@@ -156,10 +166,16 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         super.prepareForSegue(segue, sender: sender)
         
+        
         let navVc = segue.destinationViewController as! UINavigationController
         let chatVc = navVc.viewControllers.first as! ChatViewController
+        
+       
         chatVc.senderId = ref.authData.uid
+        
         chatVc.senderDisplayName = ""
+        
+        
     }
     
     
