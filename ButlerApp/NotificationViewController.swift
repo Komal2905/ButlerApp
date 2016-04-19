@@ -153,27 +153,32 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
             isSelected = false
         }
         
-        
+        /*
         ref.authAnonymouslyWithCompletionBlock { (error, authData) in
             if error != nil {print("You have one error",error.description); return}
             
             
             self.performSegueWithIdentifier("startChat", sender: nil)
-        }
+        }*/
         
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         super.prepareForSegue(segue, sender: sender)
         
-        
+        /*
         let navVc = segue.destinationViewController as! UINavigationController
         let chatVc = navVc.viewControllers.first as! ChatViewController
-        
+        chatVc.senderId = "komal"//ref.authData.uid
+        chatVc.senderDisplayName = "KOMAL" */
+        if (segue.identifier == "chatTwitter")
+        {
+            let chatVc = segue.destinationViewController as? TwitterLoginViewController
+           // {
+                //chatVc.numberToDisplay = counter
+            //}
+        }
        
-        chatVc.senderId = ref.authData.uid
-        
-        chatVc.senderDisplayName = ""
         
         
     }

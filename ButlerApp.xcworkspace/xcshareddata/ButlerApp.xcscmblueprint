@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F7049F556C2CF70D848EE980F1288F94E4EB3A65",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F7049F556C2CF70D848EE980F1288F94E4EB3A65" : 0,
+    "5C880BE1B99588B39156D68833EAB2407BF6A594" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5099044E-1F88-4134-A796-0FA6BF19E5F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F7049F556C2CF70D848EE980F1288F94E4EB3A65" : "ButlerApp\/",
+    "5C880BE1B99588B39156D68833EAB2407BF6A594" : "Chat\/twitterChat\/ios-swift-chat-example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ButlerApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ButlerApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/firebase\/ios-swift-chat-example",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C880BE1B99588B39156D68833EAB2407BF6A594"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Komal2905\/ButlerApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7049F556C2CF70D848EE980F1288F94E4EB3A65"
+    }
+  ]
+}

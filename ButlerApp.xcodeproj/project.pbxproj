@@ -38,6 +38,17 @@
 		994BD1051CC209F2002359F9 /* laundryImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1041CC209F2002359F9 /* laundryImage.jpg */; };
 		994BD1071CC20A2C002359F9 /* homeCleaning1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */; };
 		994BD1091CC20A39002359F9 /* carCleaning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994BD1081CC20A39002359F9 /* carCleaning.jpg */; };
+		99EF358D1CC6017A000F9A9E /* TwitterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF358C1CC6017A000F9A9E /* TwitterLoginViewController.swift */; };
+		99EF358F1CC60486000F9A9E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF358E1CC60486000F9A9E /* MessageViewController.swift */; };
+		99EF35951CC608E3000F9A9E /* TwitterAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EF35931CC608E3000F9A9E /* TwitterAuthHelper.m */; };
+		99EF35971CC60950000F9A9E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF35961CC60950000F9A9E /* Social.framework */; };
+		99EF359B1CC609A1000F9A9E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF359A1CC609A1000F9A9E /* AudioToolbox.framework */; };
+		99EF359D1CC609AE000F9A9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF359C1CC609AE000F9A9E /* QuartzCore.framework */; };
+		99EF359F1CC609B4000F9A9E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF359E1CC609B4000F9A9E /* Security.framework */; };
+		99EF35A11CC609BD000F9A9E /* JSQSystemSoundPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF35A01CC609BD000F9A9E /* JSQSystemSoundPlayer.framework */; };
+		99EF35A31CC609C5000F9A9E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF35A21CC609C5000F9A9E /* SystemConfiguration.framework */; };
+		99EF35A41CC60C7D000F9A9E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF35981CC60966000F9A9E /* Accounts.framework */; };
+		99EF35A61CC611B5000F9A9E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF35A51CC611B5000F9A9E /* Message.swift */; };
 		99F294691CC0A5A2000BE030 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F294681CC0A5A2000BE030 /* ServiceViewController.swift */; };
 		99F2946B1CC0AC62000BE030 /* CleaningServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2946A1CC0AC62000BE030 /* CleaningServicesViewController.swift */; };
 		99F2946D1CC0AD63000BE030 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2946C1CC0AD63000BE030 /* ServiceCell.swift */; };
@@ -153,6 +164,18 @@
 		994BD1041CC209F2002359F9 /* laundryImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laundryImage.jpg; sourceTree = "<group>"; };
 		994BD1061CC20A2C002359F9 /* homeCleaning1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeCleaning1.jpg; sourceTree = "<group>"; };
 		994BD1081CC20A39002359F9 /* carCleaning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carCleaning.jpg; sourceTree = "<group>"; };
+		99EF358C1CC6017A000F9A9E /* TwitterLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginViewController.swift; sourceTree = "<group>"; };
+		99EF358E1CC60486000F9A9E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		99EF35931CC608E3000F9A9E /* TwitterAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAuthHelper.m; sourceTree = "<group>"; };
+		99EF35941CC608E3000F9A9E /* TwitterAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAuthHelper.h; sourceTree = "<group>"; };
+		99EF35961CC60950000F9A9E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		99EF35981CC60966000F9A9E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		99EF359A1CC609A1000F9A9E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99EF359C1CC609AE000F9A9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99EF359E1CC609B4000F9A9E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		99EF35A01CC609BD000F9A9E /* JSQSystemSoundPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSQSystemSoundPlayer.framework; path = "../../../Library/Developer/Xcode/DerivedData/ButlerApp-dzqxjktaotnrsogpjljjlggapfoc/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer.framework"; sourceTree = "<group>"; };
+		99EF35A21CC609C5000F9A9E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		99EF35A51CC611B5000F9A9E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		99F294681CC0A5A2000BE030 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 		99F2946A1CC0AC62000BE030 /* CleaningServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleaningServicesViewController.swift; sourceTree = "<group>"; };
 		99F2946C1CC0AD63000BE030 /* ServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
@@ -218,6 +241,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EF35A41CC60C7D000F9A9E /* Accounts.framework in Frameworks */,
+				99EF35A31CC609C5000F9A9E /* SystemConfiguration.framework in Frameworks */,
+				99EF35A11CC609BD000F9A9E /* JSQSystemSoundPlayer.framework in Frameworks */,
+				99EF359F1CC609B4000F9A9E /* Security.framework in Frameworks */,
+				99EF359D1CC609AE000F9A9E /* QuartzCore.framework in Frameworks */,
+				99EF359B1CC609A1000F9A9E /* AudioToolbox.framework in Frameworks */,
+				99EF35971CC60950000F9A9E /* Social.framework in Frameworks */,
 				F5BE3E7694BF1CECF175C8A2 /* Pods_ButlerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +299,9 @@
 				0A6D9C641CB8BDA800B63309 /* AppDelegate.swift */,
 				0A6D9C661CB8BDA800B63309 /* ViewController.swift */,
 				0A6D9C681CB8BDA800B63309 /* Main.storyboard */,
+				99EF358E1CC60486000F9A9E /* MessageViewController.swift */,
+				99EF35A51CC611B5000F9A9E /* Message.swift */,
+				99EF358C1CC6017A000F9A9E /* TwitterLoginViewController.swift */,
 				99F698111CBE2DE800BF23E8 /* ButlerHomeViewController.swift */,
 				99081E311CC4CA5400AE211A /* ChatViewController.swift */,
 				9903E00B1CBFAD2B00FCCF1A /* NotificationViewController.swift */,
@@ -367,6 +400,13 @@
 		1CEDB12B58FF7B41F95A63EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99EF35A21CC609C5000F9A9E /* SystemConfiguration.framework */,
+				99EF35A01CC609BD000F9A9E /* JSQSystemSoundPlayer.framework */,
+				99EF359E1CC609B4000F9A9E /* Security.framework */,
+				99EF359C1CC609AE000F9A9E /* QuartzCore.framework */,
+				99EF359A1CC609A1000F9A9E /* AudioToolbox.framework */,
+				99EF35981CC60966000F9A9E /* Accounts.framework */,
+				99EF35961CC60950000F9A9E /* Social.framework */,
 				0159BF739E3BB703A6960AF9 /* Pods_ButlerApp.framework */,
 			);
 			name = Frameworks;
@@ -402,6 +442,8 @@
 				99F698151CBE304200BF23E8 /* SWRevealViewController.h */,
 				99F698161CBE304200BF23E8 /* SWRevealViewController.m */,
 				99F698141CBE304100BF23E8 /* ButlerApp-Bridging-Header.h */,
+				99EF35931CC608E3000F9A9E /* TwitterAuthHelper.m */,
+				99EF35941CC608E3000F9A9E /* TwitterAuthHelper.h */,
 			);
 			name = SWRevealViewControl;
 			sourceTree = "<group>";
@@ -636,6 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F9D95A1CBBB89600445044 /* QuestionCardsViewController.swift in Sources */,
+				99EF358F1CC60486000F9A9E /* MessageViewController.swift in Sources */,
 				99F698121CBE2DE800BF23E8 /* ButlerHomeViewController.swift in Sources */,
 				99F698091CBE0A0400BF23E8 /* Util.swift in Sources */,
 				0A6D9C6D1CB8BDA800B63309 /* ButlerApp.xcdatamodeld in Sources */,
@@ -645,12 +688,15 @@
 				99F9D94C1CBB727800445044 /* SSRadioButtonsController.swift in Sources */,
 				99F9D9561CBBB7F300445044 /* DragableView.swift in Sources */,
 				99F2948F1CC0F354000BE030 /* ImageViewHolderViewController.swift in Sources */,
+				99EF35951CC608E3000F9A9E /* TwitterAuthHelper.m in Sources */,
 				9903E0001CBF6DB600FCCF1A /* ProfileScreenViewController.swift in Sources */,
 				0A6D9C9E1CB8DE1A00B63309 /* QuestionsViewController.swift in Sources */,
 				99F2946B1CC0AC62000BE030 /* CleaningServicesViewController.swift in Sources */,
 				99F6980B1CBE177600BF23E8 /* UITextField+Shake.swift in Sources */,
+				99EF358D1CC6017A000F9A9E /* TwitterLoginViewController.swift in Sources */,
 				99F6980E1CBE1A6100BF23E8 /* UserSignUpViewController.swift in Sources */,
 				99F9D9541CBBB7A800445044 /* DragableViewBackground.swift in Sources */,
+				99EF35A61CC611B5000F9A9E /* Message.swift in Sources */,
 				99F9D9461CBB6A4700445044 /* SplashScreen.swift in Sources */,
 				9903E0081CBF9E8600FCCF1A /* TestimonialsViewController.swift in Sources */,
 				99F6982D1CBE763100BF23E8 /* ProfileTableCell.swift in Sources */,
